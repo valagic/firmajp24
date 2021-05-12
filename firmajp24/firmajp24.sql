@@ -3,8 +3,16 @@ create database firmajp24;
 use firmajp24;
 
 create table projekt (
-	id int not null primary key auto_increment,
+	sifra int not null primary key auto_increment,
 	naziv varchar(20) not null,
 	cijena decimal(18,2) not null
+);
+
+create table programer (
+	sifra int not null primary key auto_increment,
+	ime varchar(20) not null,
+	prezime varchar(20) not null,
+	datumRodjenja datetime,
+	placa decimal(18,2)
 );
 
