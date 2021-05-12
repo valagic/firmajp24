@@ -32,4 +32,5 @@ insert into projekt(naziv,cijena) values
 insert into programer(ime,prezime,datumRodjenja,placa) values
 ('Vedran','Alagić','1988-09-09',6500.00);
 
-
+insert into sudjeluje(projekt,programer,datumPocetka,datumKraja) values
+(1,1,'2021-05-05','2021-07-07');
