@@ -18,9 +18,11 @@ create table programer (
 
 create table sudjeluje (
 	projekt int not null,
-	programer int,
+	programer int not null,
 	datumPocetka datetime not null,
 	datumKraja datetime not null
 );
 
+alter table sudjeluje add foreign key(projekt) references projekt(sifra);
+alter table sudjeluje add foreign key(programer) references programer(sifra);
 
