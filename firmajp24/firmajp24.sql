@@ -34,3 +34,7 @@ insert into programer(ime,prezime,datumRodjenja,placa) values
 
 insert into sudjeluje(projekt,programer,datumPocetka,datumKraja) values
 (1,1,'2021-05-05','2021-07-07');
+
+select * from projekt;
+select * from programer;
+select * from sudjeluje;
