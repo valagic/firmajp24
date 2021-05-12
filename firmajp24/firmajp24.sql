@@ -16,3 +16,11 @@ create table programer (
 	placa decimal(18,2)
 );
 
+create table sudjeluje (
+	projekt int not null,
+	programer int,
+	datumPocetka datetime not null,
+	datumKraja datetime not null
+);
+
+
