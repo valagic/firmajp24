@@ -29,4 +29,7 @@ alter table sudjeluje add foreign key(programer) references programer(sifra);
 insert into projekt(naziv,cijena) values
 ('Novi projekt',2500.00);
 
+insert into programer(ime,prezime,datumRodjenja,placa) values
+('Vedran','Alagić','1988-09-09',6500.00);
+
 
