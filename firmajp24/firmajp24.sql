@@ -12,7 +12,7 @@ create table programer (
 	sifra int not null primary key auto_increment,
 	ime varchar(20) not null,
 	prezime varchar(20) not null,
-	datumRodjenja datetime,
+	datumRodjenja datetime not null,
 	placa decimal(18,2)
 );
 
